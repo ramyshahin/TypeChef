@@ -127,7 +127,7 @@ Install *git* and download and compile the code as follows
 
     git clone git://github.com/ckaestne/TypeChef.git
     cd TypeChef
-    java -Xmx512M -Xss10m -jar sbt-launch.jar clean update compile
+    java -Xmx512M -Xss10m -jar sbt-launch.jar clean update compile publishLocal
 
 Due to library dependencies, setting up the TypeChef classpath
 can be difficult. There are two convenient mechanisms:
